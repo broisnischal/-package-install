@@ -1,0 +1,9 @@
+{
+  // install manager
+  "name": "@package/install",
+  "version": "0.0.1",
+  "tasks": {
+    "compile": "deno compile --allow-read --allow-write --unstable index.ts --output greetme"
+  },
+  "exports": "./index.ts"
+}
